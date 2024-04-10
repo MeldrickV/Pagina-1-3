@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo - Interfaz de Usuario</title>
+</head>
+<body>
+    <h3>Estudiantes 1-3</h3>
+    <ul>
+        <li>Meldrick</li>
+        <li>José</li>
+        <li>Segio</li>
+        <li>Fredy</li>
+        <li>Rafael</li>
+        <li>Felipe</li>
+    </ul>
+    <ul id="lista2">
+
+    </ul>
+    <script>
+        let nombres = [
+            'Meldrick',
+            'José',
+            'Sergio',
+            'Fredy',
+            'Rafael',
+            'Felipe'
+        ];
+        
+           let itemsHtml = '';
+        for (i=0;i<=5;i++){
+            itemsHtml +='<li>'+nombres[i] +'</li>';
+
+        }
+        console.log(itemsHtml);
+        document.getElementById('lista2').innerHTML = itemsHtml;
+    </script>
+   
+</body>
+</html>

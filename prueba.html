@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+        }
+
+        header {
+            background-color: #191cce;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        nav a:hover {
+            color: yellow;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            text-align: center;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        section {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            width: 100%;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        section h2 {
+            margin-top: 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #ddd;
+        }
+
+        .video-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            margin-top: 20px;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        audio {
+            width: 100%;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Informatica</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="registro.html">Registro</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+
+    <div class="container">
+        <section>
+            <h2>¿Qué es la computación en la nube?</h2>
+            <p>La computación en la nube es un modelo de prestación de servicios de tecnología de la información que permite el acceso a un conjunto compartido de recursos informáticos (como redes, servidores, almacenamiento, aplicaciones y servicios) que pueden configurarse y ofrecerse rápidamente con un esfuerzo mínimo de gestión o interacción por parte del proveedor de servicios.</p>
+        </section>
+
+        <section>
+            <h2>Horario de Clases</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>HORA</th>
+                        <th>LUNES</th>
+                        <th>MARTES</th>
+                        <th>MIÉRCOLES</th>
+                        <th>JUEVES</th>
+                        <th>VIERNES</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>7:00-8:00</td>
+                        <td>Redes de computadoras</td>
+                        <td>Redes de computadoras</td>
+                        <td>Redes de computadoras</td>
+                        <td>Redes de computadoras</td>
+                        <td>Redes de computadoras</td>
+                    </tr>
+                    <tr>
+                        <td>8:00-9:00</td>
+                        <td>Fundamentos de base de datos</td>
+                        <td>Fundamentos de base de datos</td>
+                        <td>Fundamentos de base de datos</td>
+                        <td>Fundamentos de base de datos</td>
+                        <td>Fundamentos de base de datos</td>
+                    </tr>
+                    <tr>
+                        <td>9:00-10:00</td>
+                        <td>Álgebra lineal</td>
+                        <td>Álgebra lineal</td>
+                        <td>Álgebra lineal</td>
+                        <td>Álgebra lineal</td>
+                        <td>Álgebra lineal</td>
+                    </tr>
+                    <tr>
+                        <td>10:00-11:00</td>
+                        <td>Entornos de desarrollo de programación</td>
+                        <td>Entornos de desarrollo de programación</td>
+                        <td>Entornos de desarrollo de programación</td>
+                        <td>Entornos de desarrollo de programación</td>
+                        <td>Entornos de desarrollo de programación</td>
+                    </tr>
+                    <tr>
+                        <td>11:00-12:00</td>
+                        <td>Programación estructurada</td>
+                        <td>Programación estructurada</td>
+                        <td>Programación estructurada</td>
+                        <td>Programación estructurada</td>
+                        <td>Programación estructurada</td>
+                    </tr>
+                    <tr>
+                        <td>12:00-1:00</td>
+                        <td>Diseño de interfaces de usuarios</td>
+                        <td>Diseño de interfaces de usuarios</td>
+                        <td>Diseño de interfaces de usuarios</td>
+                        <td>Diseño de interfaces de usuarios</td>
+                        <td>Diseño de interfaces de usuarios</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Videos</h2>
+            <div class="video-container">
+                <iframe src="Videos/NataAoki.mp4" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section>
+            <h2>Audio</h2>
+            <audio src="Audio/CuernoAzulado.wav" controls></audio>
+        </section>
+    </div>
+</body>
+
+</html>
